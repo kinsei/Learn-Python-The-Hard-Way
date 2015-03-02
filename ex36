@@ -1,0 +1,25 @@
+Rules for IF statement
+
+1. Every If-statement must have an Else
+
+2. If this Else should never be rum because is doesn't make sence, then you must use a die
+   function in the Else that prints out an error message and dies.
+
+3. Never nest If-statements more than two deep and always try to do them one deep. This means
+   if you put an If in an If, then you  be looking to move that second if into another function.
+
+4. Treat If-statements like paragraphs, where each if, elif, else grouping is like a set of sentences.
+   Put blank spaces before and after
+
+5. Your boolean tests should be simple. If they are complex, move their calculations to variables
+   earlier in your function and use a good name for the variables.
+
+
+Rules for Loops
+
+1. Use a while-loop only to loop forever, and that means probably never. This only applies to python;
+   other languages are different.
+
+2. Use a for-loop for all other kinds of looping, expecially if there is a fixed or limited number of
+   things to loop over.
+
