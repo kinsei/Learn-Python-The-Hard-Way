@@ -1,0 +1,73 @@
+Boolean Algebra
+
+Not               True
+
+Not False         True
+Not True          False
+
+
+Or                True
+
+True OR False     True
+True OR True      True
+False OR True     True
+False Or False    False
+
+
+And               True
+
+True AND False    False
+True AND True     True
+False AND True    False
+False AND False   False
+
+
+Not Or               True
+
+not(True or False)   False
+not(True or True)    False
+not(False or True)   False
+not(False or False)  True
+
+
+Not And              True
+
+not(True and False)  True
+not(True and True)   False
+not(False and True)  True
+not(False and False) True
+
+
+!=           True
+
+1!=0         True
+1!=1         False
+0!=1         True
+0!=0         False
+
+
+==           True
+
+1==0         False
+1==1         True
+0==1         False
+0==0         True
+
+
+>=           True
+
+1>=0         True
+1>=1         True
+0>=1         False
+0>=0         True
+
+
+<=           True
+
+1<=0         False
+1<=1         True
+0<=1         True
+0<=0         True
+
+
+
