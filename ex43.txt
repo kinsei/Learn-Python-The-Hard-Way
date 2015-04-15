@@ -1,0 +1,77 @@
+# This is exercise 43 from the book Learn Python The Hard Way by Zed Shaw
+
+OOP Process:
+
+1) write or draw the problem
+2) extract key concepts from #1 and research them
+3) create a class hierarchy and object map the concepts.
+4) code the classes and test to rum them
+5) repeat and refine
+
+Analysis of game engine
+    This will be a space adventure game called "Gothons from planet Percal
+ #25". 
+
+Write Draw problem
+    Ailens have invaded the space ship and our hero has to go through a maze
+of rooms defeating them so he can escape in an escape pod. The game will 
+involve an engine that runs a map full of rooms or scenes. Each room will print
+its own description when the player enters it then tells the engin what room to run next ou tof the map. 
+
+Death: this is when the player dies and should ben something funny.
+Central Corridor: this is the starting point and has a Gothon already standing
+                  there, which the player has to defeat before continuing.
+Laser Weapon Armory: this is where the hero gets a neutron bomb to blow up
+                     the ship before getting to the escape pod. it has to 
+                     guess the number for.
+The Bridge: another battle scene with a Gothon where the hero places the bomb.
+Escape Pod: where the hero escapes but only after guessing the right escape pod.
+
+Key concepts
+
+* Alien
+* Player
+* Ship
+* Maze
+* Room
+* Scene
+* Gothon
+* Escape Pob
+* Planet
+* Map
+* Engine
+* Death
+* Central Corridor
+* Laser Weapon Armory
+* The Brige
+
+Create a Class hierarchy and object map
+ask:
+    "What is similar to other things?"
+    "what is basically just another word for a thing?"
+    exa. room and scene are basicaly the same
+class hierarchy
+*map
+*engine
+*scene
+  *death
+  *central corridor
+  *laser weapon
+  *the brige
+  *escape pod
+
+
+*map
+ -next_scene
+ -opening_scene
+*engine
+ -play
+*scene
+ -enter
+    *Death
+    *central corridor
+    *laser weapon armory
+    *the bribge
+    *escape pod
+
+
